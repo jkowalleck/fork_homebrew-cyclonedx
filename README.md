@@ -8,9 +8,14 @@ brew tap cyclonedx/cyclonedx
 
 ## Formulae
 
-#### [CycloneDX CLI](https://github.com/CycloneDX/cyclonedx-cli)
+#### CycloneDX CLI
 
 ```
 brew install cyclonedx-cli
 ```
 
+#### CycloneDX GoMod
+
+```
+brew install cyclonedx-gomod
+```
