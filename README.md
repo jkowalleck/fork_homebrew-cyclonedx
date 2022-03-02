@@ -1,11 +1,16 @@
-# CycloneDX Cyclonedx
+# homebrew-cyclonedx
 
-## How do I install these formulae?
+## Installation
 
-`brew install cyclonedx/cyclonedx/<formula>`
+```
+brew tap cyclonedx/cyclonedx
+```
 
-Or `brew tap cyclonedx/cyclonedx` and then `brew install <formula>`.
+## Formulae
 
-## Documentation
+#### [CycloneDX CLI](https://github.com/CycloneDX/cyclonedx-cli)
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```
+brew install cyclonedx-cli
+```
+
