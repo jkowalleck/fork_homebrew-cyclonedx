@@ -1,4 +1,4 @@
-class CycloneDxCli < Formular
+class CyclonedxCli < Formula
     desc "CycloneDX CLI tool for SBOM analysis, merging, diffs and format conversions."
     homepage "https://cyclonedx.org"
     version "0.22.0"
