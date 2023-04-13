@@ -1,21 +1,21 @@
 class CyclonedxGomod < Formula
   desc "Creates CycloneDX Software Bill of Materials (SBOM) from Go modules."
   homepage "https://cyclonedx.org"
-  version "1.3.0"
+  version "1.4.0"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/CycloneDX/cyclonedx-gomod/releases/download/v1.3.0/cyclonedx-gomod_1.3.0_darwin_amd64.tar.gz"
-      sha256 "761d148626ac5fa88813e36ec3ff7fb092711d4bce160c609a33d56c0f2386bb"
+      url "https://github.com/CycloneDX/cyclonedx-gomod/releases/download/v1.4.0/cyclonedx-gomod_1.4.0_darwin_amd64.tar.gz"
+      sha256 "8c4dd35d6ff07b04a8610192519cc5e9b1c8c15452f0e2d546daf837bd546e4a"
 
       def install
         bin.install "cyclonedx-gomod"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/CycloneDX/cyclonedx-gomod/releases/download/v1.3.0/cyclonedx-gomod_1.3.0_darwin_arm64.tar.gz"
-      sha256 "fd3b073fb9a41308ca10f984473ff5c60b45146f0c1d75805d85b5e6faa1bc7c"
+      url "https://github.com/CycloneDX/cyclonedx-gomod/releases/download/v1.4.0/cyclonedx-gomod_1.4.0_darwin_arm64.tar.gz"
+      sha256 "a98c1b95a3c2266f645b182ef3b2768ca21fa9b7f8184ac0179405889872dfe3"
 
       def install
         bin.install "cyclonedx-gomod"
@@ -25,16 +25,16 @@ class CyclonedxGomod < Formula
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/CycloneDX/cyclonedx-gomod/releases/download/v1.3.0/cyclonedx-gomod_1.3.0_linux_arm64.tar.gz"
-      sha256 "92233644d11e1c54888e3b77414aa2926729eb7d0acf70ce87ab16df56beb087"
+      url "https://github.com/CycloneDX/cyclonedx-gomod/releases/download/v1.4.0/cyclonedx-gomod_1.4.0_linux_arm64.tar.gz"
+      sha256 "c387ccc487f787fc47772bed1d0804d84d63e84dc0eb30ea4629401f3a97304b"
 
       def install
         bin.install "cyclonedx-gomod"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/CycloneDX/cyclonedx-gomod/releases/download/v1.3.0/cyclonedx-gomod_1.3.0_linux_amd64.tar.gz"
-      sha256 "4099ea5446aa59f6745d45ed0a1e4d2dcda6b1ad0e56d00b7489cac78a12492a"
+      url "https://github.com/CycloneDX/cyclonedx-gomod/releases/download/v1.4.0/cyclonedx-gomod_1.4.0_linux_amd64.tar.gz"
+      sha256 "b80982b7903b63b00f8ee7703528a58560b90890cdaff46419430d6c57d18321"
 
       def install
         bin.install "cyclonedx-gomod"
